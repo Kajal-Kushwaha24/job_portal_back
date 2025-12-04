@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "job_portal_back"
+version = "0.1.0"
+description = ""
+authors = ["you"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "0.104.1"
+sqlalchemy = "2.0.23"
+pydantic = "2.5.0"
+pymysql = "1.1.0"
+cryptography = "41.0.7"
+uvicorn = "0.24.0"
